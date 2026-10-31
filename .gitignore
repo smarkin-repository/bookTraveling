@@ -1,0 +1,31 @@
+# Secrets and user content
+.env
+.env.*
+!.env.example
+data/
+books/
+uploads/
+*.epub
+*.pdf
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# Node
+node_modules/
+frontend/dist/
+coverage/
+
+# Local tooling
+.DS_Store
+.vscode/
+.idea/

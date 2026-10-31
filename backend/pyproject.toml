@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75,<80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "booktravaling"
+version = "0.1.0"
+description = "Local book analysis project skeleton"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.30,<1",
+  "celery[redis]>=5.4,<6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1", "ruff>=0.8,<1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100

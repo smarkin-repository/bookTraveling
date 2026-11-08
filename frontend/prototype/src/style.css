@@ -1,0 +1,20 @@
+:root {
+  font: 1rem/1.6 system-ui, sans-serif;
+  color: #20242b;
+  background: #f5f6f8;
+}
+body { margin: 0; }
+header, main { padding: 1.25rem max(1.25rem, calc((100% - 44rem) / 2)); }
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #d5d9df;
+}
+nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+h1 { line-height: 1.2; }
+a { color: #204c94; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.notice { color: #505965; }
+blockquote { margin-left: 0; padding-left: 1rem; border-left: 3px solid #aeb7c6; }

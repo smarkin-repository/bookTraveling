@@ -1,6 +1,6 @@
 # Codex: инструменты и workflow
 
-Установка не выполнялась. Подбирать только инструменты, нужные текущей задаче.
+Для задач UI используйте репозиторный `booktraveling-design` и [инструкции по установке UI/UX Pro Max, Agentation и холстов](design-setup.md). Ниже — дополнительные инструменты для других этапов проекта. Подбирайте только нужные текущей задаче.
 
 - [Build Web Apps](https://github.com/openai/plugins/tree/main/plugins/build-web-apps): UI-концепция, React и визуальные проверки.
 - [OpenAI Developers](https://github.com/openai/plugins/tree/main/plugins/openai-developers): интеграция и документация OpenAI API.

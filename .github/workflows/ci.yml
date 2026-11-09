@@ -30,3 +30,5 @@ jobs:
         working-directory: frontend
       - run: npm run build
         working-directory: frontend
+      - run: npm run build:prototype
+        working-directory: frontend

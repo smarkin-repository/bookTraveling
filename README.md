@@ -12,7 +12,18 @@
 - [План и критерии готовности](docs/plan.md)
 - [Текущий прогресс](docs/progress.md)
 - [Инструменты Codex](docs/codex-tooling.md)
+- [Дизайн-процесс и первый эксперимент](docs/design-workflow.md)
+- [Настройка и запуск дизайн-инструментов](docs/design-setup.md)
 - [Инструкции для агентов](AGENTS.md)
+
+## Запуск UI-прототипа
+
+```bash
+npm --prefix frontend ci
+npm --prefix frontend run dev:prototype
+```
+
+Открыть http://127.0.0.1:5174. Там отдельный рабочий макет с демонстрационными данными, картой экранов и Agentation. Для запуска нужны Node.js 22.12+ или 24 и npm. Docker, API и ключ LLM для этой проверки не требуются.
 
 ## Локальный запуск
 

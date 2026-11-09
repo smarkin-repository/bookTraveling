@@ -26,6 +26,7 @@ frontend/dist/
 coverage/
 
 # Local tooling
+/.agents/skills/ui-ux-pro-max/
 .DS_Store
 .vscode/
 .idea/
